@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a.active hr {
+    display: block;
+}
+
+body {
+    background-color: #f7c6d9; /* Powder pink background */
+    color: #333; /* Dark text */
+}
+
+.bg-white {
+    background-color: #fff0f5; /* Light pink background for elements */
+}
+
+.text-gray-700 {
+    color: #333; /* Dark text */
+}
+
+.text-red-500 {
+    color: #e60073; /* Darker pink for error messages */
+}
+
+.bg-blue-500 {
+    background-color: #ff69b4; /* Bright pink for buttons */
+}
+
+.bg-blue-500:hover {
+    background-color: #ff1493; /* Darker pink on hover */
+}
+
+.border-gray-300 {
+    border-color: #ffb6c1; /* Light pink border */
+}
+
+.text-white {
+    color: #fff; /* White text */
+}
+
+.bg-black {
+    background-color: #333; /* Dark background for contrast */
+}
+
+.text-black {
+    color: #333; /* Dark text */
+}
+
+.dropdown-menu {
+    background-color: #fff0f5; /* Light pink background for dropdown */
+    color: #333; /* Dark text */
+}
+
+.cursor-pointer:hover {
+    color: #ff69b4; /* Bright pink on hover */
+}
